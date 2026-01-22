@@ -1381,4 +1381,128 @@ section:hover::after {
     border-radius: 36px;
   }
 }
+.trust-section {
+  padding: 80px 6%;
+  background: linear-gradient(180deg, #f9fafb, #ffffff);
+  text-align: center;
+}
+
+.trust-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.trust-card {
+  padding: 28px 20px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 35px rgba(0,0,0,0.06);
+  transition: all 0.35s ease;
+}
+
+.trust-card span {
+  font-size: 34px;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.trust-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 50px rgba(100,100,255,0.15);
+}
+.company-stats {
+  padding: 80px 6%;
+  background: #0f172a;
+  color: #fff;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+}
+
+.stat-card {
+  padding: 36px 24px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #1e293b, #020617);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.stat-card h3 {
+  font-size: 42px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-card:hover {
+  transform: scale(1.06);
+}
+.chit-plans {
+  padding: 90px 6%;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.plans-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.plan-card {
+  background: #fff;
+  border-radius: 22px;
+  padding: 36px 26px;
+  box-shadow: 0 14px 45px rgba(0,0,0,0.08);
+  position: relative;
+  transition: all 0.35s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-12px);
+}
+
+.plan-card .amount {
+  font-size: 34px;
+  font-weight: 800;
+  margin: 18px 0;
+  color: #2563eb;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-card ul li {
+  margin: 10px 0;
+  color: #475569;
+}
+
+.plan-card.popular {
+  background: linear-gradient(180deg, #eef2ff, #ffffff);
+  border: 2px solid #6366f1;
+}
+
+.plan-card .tag {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #6366f1;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+
 
